@@ -126,10 +126,10 @@ func (f *federation) InjectSourceEarly() *ast.Source {
 	  | UNION
 	directive @interfaceObject on OBJECT
 	directive @link(import: [String!], url: String!) repeatable on SCHEMA
-	directive @override(from: String!) on FIELD_DEFINITION
+	directive @override(from: String!, options: federation__OverrideOptions) on FIELD_DEFINITION
 	directive @provides(fields: FieldSet!) on FIELD_DEFINITION
 	directive @requires(fields: FieldSet!) on FIELD_DEFINITION
-	directive @requiresScopes(scopes: [[federation__Scope!]!]!) on 
+	directive @requiresScopes(scopes: [[federation__Scope!]!]!) on
 	  | FIELD_DEFINITION
 	  | OBJECT
 	  | INTERFACE
@@ -150,6 +150,9 @@ func (f *federation) InjectSourceEarly() *ast.Source {
 	scalar _Any
 	scalar FieldSet
 	scalar federation__Scope
+	input federation__OverrideOptions {
+	  label: String
+	}
 `
 	}
 	return &ast.Source{
