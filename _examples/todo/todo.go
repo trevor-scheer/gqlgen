@@ -10,7 +10,7 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql"
 )
 
 var (

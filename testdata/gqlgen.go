@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/plugin/stubgen"
+	"github.com/trevor-scheer/gqlgen/api"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/plugin/stubgen"
 )
 
 func main() {

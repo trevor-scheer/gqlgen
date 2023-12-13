@@ -17,15 +17,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/plugin/modelgen/internal/extrafields"
-	"github.com/99designs/gqlgen/plugin/modelgen/out"
-	"github.com/99designs/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_false"
-	"github.com/99designs/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_nil"
-	"github.com/99designs/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_true"
-	"github.com/99designs/gqlgen/plugin/modelgen/out_nullable_input_omittable"
-	"github.com/99designs/gqlgen/plugin/modelgen/out_struct_pointers"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/internal/extrafields"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_false"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_nil"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out_enable_model_json_omitempty_tag_true"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out_nullable_input_omittable"
+	"github.com/trevor-scheer/gqlgen/plugin/modelgen/out_struct_pointers"
 )
 
 func TestModelGeneration(t *testing.T) {

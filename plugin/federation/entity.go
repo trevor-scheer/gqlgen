@@ -5,9 +5,9 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin/federation/fieldset"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/codegen/templates"
+	"github.com/trevor-scheer/gqlgen/plugin/federation/fieldset"
 )
 
 // Entity represents a federated type

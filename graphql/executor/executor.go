@@ -8,8 +8,8 @@ import (
 	"github.com/vektah/gqlparser/v2/parser"
 	"github.com/vektah/gqlparser/v2/validator"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql/errcode"
 )
 
 // Executor executes graphql queries against a schema.

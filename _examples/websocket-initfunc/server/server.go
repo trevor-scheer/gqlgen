@@ -13,10 +13,10 @@ import (
 	"github.com/gqlgen/_examples/websocket-initfunc/server/graph"
 	"github.com/rs/cors"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/trevor-scheer/gqlgen/graphql/handler"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/extension"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/transport"
+	"github.com/trevor-scheer/gqlgen/graphql/playground"
 )
 
 func webSocketInit(ctx context.Context, initPayload transport.InitPayload) (context.Context, *transport.InitPayload, error) {

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/codegen"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
 )
 
 func TestLayoutSingleFile(t *testing.T) {
@@ -28,7 +28,7 @@ func TestLayoutSingleFile(t *testing.T) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/99designs/gqlgen/plugin/resolvergen/testdata/singlefile/out")
+	assertNoErrors(t, "github.com/trevor-scheer/gqlgen/plugin/resolvergen/testdata/singlefile/out")
 }
 
 func TestLayoutFollowSchema(t *testing.T) {
@@ -81,7 +81,7 @@ func TestOmitTemplateComment(t *testing.T) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/99designs/gqlgen/plugin/resolvergen/testdata/omit_template_comment/out")
+	assertNoErrors(t, "github.com/trevor-scheer/gqlgen/plugin/resolvergen/testdata/omit_template_comment/out")
 }
 
 func TestResolver_Implementation(t *testing.T) {
@@ -99,7 +99,7 @@ func TestResolver_Implementation(t *testing.T) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/99designs/gqlgen/plugin/resolvergen/testdata/resolver_implementor/out")
+	assertNoErrors(t, "github.com/trevor-scheer/gqlgen/plugin/resolvergen/testdata/resolver_implementor/out")
 }
 
 func TestCustomResolverTemplate(t *testing.T) {
@@ -133,7 +133,7 @@ func testFollowSchemaPersistence(t *testing.T, dir string) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/99designs/gqlgen/plugin/resolvergen/"+dir+"/out")
+	assertNoErrors(t, "github.com/trevor-scheer/gqlgen/plugin/resolvergen/"+dir+"/out")
 }
 
 func assertNoErrors(t *testing.T, pkg string) {

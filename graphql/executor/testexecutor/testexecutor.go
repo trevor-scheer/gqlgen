@@ -11,8 +11,8 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/executor"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql/executor"
 )
 
 type MockResponse struct {

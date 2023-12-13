@@ -69,7 +69,7 @@ func (p *Packages) CleanupUserPackages() {
 			modInfo = nil
 		}
 	})
-	// Don't cleanup github.com/99designs/gqlgen prefixed packages,
+	// Don't cleanup github.com/trevor-scheer/gqlgen prefixed packages,
 	// they haven't changed and do not need to be reloaded
 	if modInfo != nil {
 		var toRemove []string

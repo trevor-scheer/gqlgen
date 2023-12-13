@@ -10,11 +10,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/_examples/fileupload/model"
-	gqlclient "github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/trevor-scheer/gqlgen/_examples/fileupload/model"
+	gqlclient "github.com/trevor-scheer/gqlgen/client"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql/handler"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/transport"
 )
 
 func TestFileUpload(t *testing.T) {

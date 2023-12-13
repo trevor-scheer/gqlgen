@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/trevor-scheer/gqlgen/internal/code"
 )
 
 type Rewriter struct {

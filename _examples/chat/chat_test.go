@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/trevor-scheer/gqlgen/client"
+	"github.com/trevor-scheer/gqlgen/graphql/handler"
 )
 
 func TestChatSubscriptions(t *testing.T) {

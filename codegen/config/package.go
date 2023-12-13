@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/trevor-scheer/gqlgen/internal/code"
 )
 
 type PackageConfig struct {

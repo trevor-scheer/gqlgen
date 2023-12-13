@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	extension "github.com/99designs/gqlgen/_examples/type-system-extension"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
+	extension "github.com/trevor-scheer/gqlgen/_examples/type-system-extension"
+	"github.com/trevor-scheer/gqlgen/graphql/handler"
+	"github.com/trevor-scheer/gqlgen/graphql/playground"
 )
 
 const defaultPort = "8080"

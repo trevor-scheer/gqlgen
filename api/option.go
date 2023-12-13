@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/plugin"
 )
 
 type Option func(cfg *config.Config, plugins *[]plugin.Plugin)

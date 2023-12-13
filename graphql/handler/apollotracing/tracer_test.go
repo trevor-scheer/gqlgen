@@ -14,12 +14,12 @@ import (
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/apollotracing"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/apollotracing"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/extension"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/lru"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/testserver"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/transport"
 )
 
 type alwaysError struct{}

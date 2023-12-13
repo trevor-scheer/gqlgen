@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/trevor-scheer/gqlgen/codegen"
+	"github.com/trevor-scheer/gqlgen/codegen/config"
 )
 
 func TestWithEntities(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
+	"github.com/trevor-scheer/gqlgen/client"
 )
 
 func TestWithFiles(t *testing.T) {

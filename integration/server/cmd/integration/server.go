@@ -10,13 +10,13 @@ import (
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/99designs/gqlgen/integration/server"
+	"github.com/trevor-scheer/gqlgen/graphql"
+	"github.com/trevor-scheer/gqlgen/graphql/handler"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/extension"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/lru"
+	"github.com/trevor-scheer/gqlgen/graphql/handler/transport"
+	"github.com/trevor-scheer/gqlgen/graphql/playground"
+	"github.com/trevor-scheer/gqlgen/integration/server"
 )
 
 const defaultPort = "8080"
